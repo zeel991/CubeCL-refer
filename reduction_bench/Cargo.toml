@@ -1,0 +1,9 @@
+[package]
+name = "reduction_bench"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cubecl = { version = "0.9", features = ["wgpu"] }
+bytemuck = "1.16"
+pollster = "0.4.0"
